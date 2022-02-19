@@ -1,0 +1,54 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    z-index: 1;
+    
+    display: flex;
+    justify-content: space-between;
+   
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+.nav_logo{
+    position: fixed;
+    width: 80px;
+    object-fit: contain;
+    left: 20px;
+    cursor: pointer;
+    
+}
+
+.navnav{
+    padding-left: 100px;
+    padding-top: 4px;
+    display:inline-flex;
+    justify-content: space-between;
+    color:#fff;
+    cursor: pointer;
+}
+
+.nav_list{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.nav_avtar{
+    position:fixed;
+    width: 30px;
+    object-fit: contain;
+    right: 10px;
+    cursor: pointer;
+    
+}
